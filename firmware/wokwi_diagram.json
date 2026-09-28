@@ -1,1 +1,236 @@
-
+{
+  "version": 1,
+  "author": "MM",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": 85.26,
+      "left": -3.1,
+      "rotate": 270,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-a4988",
+      "id": "drv1",
+      "top": 43.4,
+      "left": 187.6,
+      "rotate": 270,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-stepper-motor",
+      "id": "stepper1",
+      "top": -140.39,
+      "left": 134.83,
+      "attrs": { "size": "17" }
+    },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": 133.8,
+      "left": 168.6,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-vcc",
+      "id": "vcc1",
+      "top": 258.24,
+      "left": 192.2,
+      "rotate": 180,
+      "attrs": {}
+    },
+    { "type": "wokwi-gnd", "id": "gnd1", "top": 259.2, "left": 229.8, "attrs": {} },
+    {
+      "type": "wokwi-stepper-motor",
+      "id": "stepper2",
+      "top": -140.39,
+      "left": 298.03,
+      "attrs": { "size": "17" }
+    },
+    {
+      "type": "wokwi-a4988",
+      "id": "drv2",
+      "top": 43.4,
+      "left": 350.8,
+      "rotate": 270,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-stepper-motor",
+      "id": "stepper3",
+      "top": -140.39,
+      "left": 461.23,
+      "attrs": { "size": "17" }
+    },
+    { "type": "wokwi-a4988", "id": "drv3", "top": 43.4, "left": 514, "rotate": 270, "attrs": {} },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot1",
+      "top": 182.4,
+      "left": 210.4,
+      "rotate": 90,
+      "attrs": { "travelLength": "30" }
+    },
+    { "type": "wokwi-vcc", "id": "vcc2", "top": 96.76, "left": 316.8, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd2", "top": 345.6, "left": 316.2, "attrs": {} },
+    {
+      "type": "wokwi-text",
+      "id": "text1",
+      "top": -163.2,
+      "left": 172.8,
+      "attrs": { "text": "X axis motor" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": -163.2,
+      "left": 336,
+      "attrs": { "text": "Z axis motor" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text3",
+      "top": -163.2,
+      "left": 499.2,
+      "attrs": { "text": "Y axis motor" }
+    },
+    { "type": "wokwi-vcc", "id": "vcc4", "top": 19.96, "left": 230.4, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc5", "top": 19.96, "left": 393.6, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc6", "top": 19.96, "left": 556.8, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd4", "top": 11, "left": 239.8, "rotate": 180, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd5", "top": 11, "left": 403, "rotate": 180, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd6", "top": 11, "left": 566.2, "rotate": 180, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc7", "top": 19.96, "left": 336, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc8", "top": 19.96, "left": 499.2, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc9", "top": 19.96, "left": 172.8, "attrs": {} },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": 152.6,
+      "left": 376.2,
+      "rotate": 270,
+      "attrs": {}
+    },
+    { "type": "wokwi-gnd", "id": "gnd7", "top": 307.2, "left": 441, "attrs": {} },
+    {
+      "type": "wokwi-vcc",
+      "id": "vcc10",
+      "top": 344.64,
+      "left": 451.4,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 275,
+      "left": -115.2,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 476.6,
+      "left": -115.2,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 342.2,
+      "left": -115.2,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": 409.4,
+      "left": -115.2,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text4",
+      "top": 249.6,
+      "left": -105.6,
+      "attrs": { "text": "HOME" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text5",
+      "top": 316.8,
+      "left": -105.6,
+      "attrs": { "text": "SAVE" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text6",
+      "top": 384,
+      "left": -115.2,
+      "attrs": { "text": "SELECT" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text7",
+      "top": 451.2,
+      "left": -105.6,
+      "attrs": { "text": "LOAD" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:35", "joystick1:VERT", "blue", [ "v47.85", "h192" ] ],
+    [ "esp:34", "joystick1:HORZ", "blue", [ "v57.45", "h192" ] ],
+    [ "esp:32", "joystick1:SEL", "blue", [ "v38.25", "h201.6" ] ],
+    [ "drv1:SLEEP", "drv1:RESET", "gold", [ "v9.6", "h-9.6" ] ],
+    [ "stepper1:A-", "drv1:2B", "#8f4814", [ "v0" ] ],
+    [ "drv1:2A", "stepper1:A+", "#8f4814", [ "v0" ] ],
+    [ "stepper1:B+", "drv1:1A", "#8f4814", [ "v0" ] ],
+    [ "drv1:1B", "stepper1:B-", "#8f4814", [ "v0" ] ],
+    [ "esp:33", "drv1:STEP", "red", [ "v9.45", "h115.2", "v-134.4", "h86.4" ] ],
+    [ "stepper2:A-", "drv2:2B", "#8f4814", [ "v0" ] ],
+    [ "drv2:2A", "stepper2:A+", "#8f4814", [ "v0" ] ],
+    [ "stepper2:B+", "drv2:1A", "#8f4814", [ "v0" ] ],
+    [ "stepper2:B-", "drv2:1B", "#8f4814", [ "v0" ] ],
+    [ "drv2:RESET", "drv2:SLEEP", "gold", [ "v9.6", "h9.6" ] ],
+    [ "esp:17", "drv2:STEP", "blue", [ "v-28.8", "h336" ] ],
+    [ "stepper3:A-", "drv3:2B", "#8f4814", [ "v0" ] ],
+    [ "drv3:2A", "stepper3:A+", "#8f4814", [ "v0" ] ],
+    [ "stepper3:B+", "drv3:1A", "#8f4814", [ "v0" ] ],
+    [ "drv3:1B", "stepper3:B-", "#8f4814", [ "v0" ] ],
+    [ "drv3:RESET", "drv3:SLEEP", "gold", [ "v9.6", "h9.6" ] ],
+    [ "esp:16", "drv3:STEP", "blue", [ "v-19.2", "h489.6" ] ],
+    [ "pot1:SIG", "esp:4", "blue", [ "v0", "h-28" ] ],
+    [ "esp:25", "drv1:DIR", "gold", [ "v19.05", "h115.2", "v-134.4", "h86.4" ] ],
+    [ "esp:26", "drv2:DIR", "gold", [ "v28.65", "h115.2", "v-124.8", "h240" ] ],
+    [ "esp:27", "drv3:DIR", "gold", [ "v38.25", "h508.8" ] ],
+    [ "joystick1:GND", "gnd1:GND", "black", [ "v0" ] ],
+    [ "vcc1:VCC", "joystick1:VCC", "red", [ "v0" ] ],
+    [ "drv1:GND.1", "gnd4:GND", "black", [ "h0" ] ],
+    [ "vcc4:VCC", "drv1:VDD", "red", [ "v0" ] ],
+    [ "vcc9:VCC", "drv1:VMOT", "red", [ "v0" ] ],
+    [ "gnd6:GND", "drv3:GND.1", "black", [ "v0" ] ],
+    [ "vcc6:VCC", "drv3:VDD", "red", [ "v0" ] ],
+    [ "vcc8:VCC", "drv3:VMOT", "red", [ "v0" ] ],
+    [ "gnd5:GND", "drv2:GND.1", "black", [ "v0" ] ],
+    [ "vcc5:VCC", "drv2:VDD", "red", [ "v0" ] ],
+    [ "vcc7:VCC", "drv2:VMOT", "red", [ "v0" ] ],
+    [ "vcc2:VCC", "pot1:VCC", "red", [ "v0" ] ],
+    [ "pot1:GND", "gnd2:GND", "black", [ "v0" ] ],
+    [ "gnd7:GND", "servo1:GND", "black", [ "v0" ] ],
+    [ "vcc10:VCC", "servo1:V+", "red", [ "v0" ] ],
+    [ "esp:14", "servo1:PWM", "gold", [ "v47.85", "h393.6" ] ],
+    [ "esp:3V3", "btn1:1.l", "red", [ "v9.45", "h-96" ] ],
+    [ "esp:3V3", "btn3:1.l", "red", [ "v-0.15", "h-96" ] ],
+    [ "esp:3V3", "btn4:1.l", "red", [ "v-9.75", "h-86.4" ] ],
+    [ "esp:3V3", "btn2:1.l", "red", [ "v28.65", "h-86.4" ] ],
+    [ "btn1:2.r", "esp:12", "gold", [ "h0" ] ],
+    [ "esp:13", "btn3:2.r", "gold", [ "v0" ] ],
+    [ "btn4:2.r", "esp:22", "gold", [ "h0" ] ],
+    [ "esp:23", "btn2:2.r", "gold", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
