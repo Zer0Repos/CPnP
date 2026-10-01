@@ -1,2 +1,2 @@
 # LPnP
-Controller for my cartesian robot
+Control interface for my cartesian robot
